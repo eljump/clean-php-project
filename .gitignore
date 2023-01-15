@@ -1,0 +1,8 @@
+.idea
+.env
+vendor
+/composer.lock
+/docker/nginx/logs/
+/docker/phpsocket/
+/docker/redis/
+/docker/mysql/data/

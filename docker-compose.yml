@@ -48,18 +48,18 @@ services:
     networks:
       - app-network
 
-  redis:
-    image: redis:latest
-    restart: always
-    volumes:
-      - ./docker/redis:/var/lib/redis
-    networks:
-      - app-network
+#  redis:
+#    image: redis:latest
+#    restart: always
+#    volumes:
+#      - ./docker/redis:/var/lib/redis
+#    networks:
+#      - app-network
 
-  memcached:
-    image: memcached:latest
-    networks:
-      - app-network
+#  memcached:
+#    image: memcached:latest
+#    networks:
+#      - app-network
 
 #  elasticsearch:
 #    image: elasticsearch:8.5.2
